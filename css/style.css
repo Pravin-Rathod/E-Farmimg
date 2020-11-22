@@ -1,0 +1,27 @@
+h1, h2, h3{
+	text-align: center;
+}
+picture img{
+	margin-top: 15px;
+	border-radius: 15px;
+}
+.carousel img {
+	max-width: 100%;
+	height: auto;
+}
+@media only screen and (min-width: 768px) {
+	.carousel img{
+		max-height: 500px;
+		max-width: 100%;
+	}
+}    	
+.carousel-item {
+	transition: transform 2s ease, opacity .5s ease-out;
+}
+img
+{
+	width:100%;
+}
+.myImage img{
+	height: 200px;
+}

@@ -1,0 +1,45 @@
+	p{
+			text-align:center;
+			font-style:bold;
+			font-size:20px;
+	
+	}
+	
+	img:hover{
+			
+	       border-radius:25%;
+	   }
+	    
+		
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  transform: scale(0);
+  transition: .3s ease;
+}
+.container:hover .overlay {
+  transform: scale(1);
+}
+h3{
+	
+	font-size:35px;
+	font-style:normal;
+	font-weight:bold;
+	color:blue;
+	text-align:center;
+	text-decoration:underline;
+
+}
+table{
+		font-size:23px;
+	  }
+img{
+	width: 100%;
+	height: auto;
+}
